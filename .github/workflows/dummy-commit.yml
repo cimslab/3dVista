@@ -3,9 +3,7 @@ name: Dummy commit if someone else than sysadmin@cims.carleton.ca
 on:
   push:
     branches:
-      - dev
       - main
-      - '**'
 
 jobs:
   enforce-email:
